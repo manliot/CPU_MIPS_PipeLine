@@ -3875,7 +3875,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <appear>
       <path d="M64,70 Q70,85 77,69" fill="none" stroke="#808080" stroke-width="2"/>
       <rect fill="none" height="330" stroke="#000000" stroke-width="2" width="42" x="50" y="51"/>
-      <rect fill="#ffb579" height="327" stroke="#ffb579" width="39" x="52" y="53"/>
+      <rect fill="#ffb579" height="327" stroke="#ffb579" width="39" x="51" y="52"/>
       <circ-port height="8" pin="150,200" width="8" x="46" y="66"/>
       <circ-port height="10" pin="480,200" width="10" x="85" y="65"/>
       <circ-port height="8" pin="150,380" width="8" x="46" y="96"/>
