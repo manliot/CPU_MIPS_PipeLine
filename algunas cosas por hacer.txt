@@ -1,9 +1,6 @@
 
-
-*cambiar la posiion del circuito del jump (porque usa la señal Jump y jumpSelec la cual varia dependiendo de la instruccion)
-
-* terminar de pasar los registros que salen de la unidad de control por los demas stages ( lo que se pasan depende del stage, ver diapositiva de pipeline colgada en el catalogo web)
-
-*terminar implementar el stage Mem/WR
-
 *implementar los leds
+
+*hacer que el resultado de la alu  se guarde en el registo inmediatamente
+
+
