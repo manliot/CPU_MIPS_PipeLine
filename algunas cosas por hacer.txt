@@ -1,6 +1,4 @@
 
-*implementar los leds
 
-*hacer que el resultado de la alu  se guarde en el registo inmediatamente( trabajando en ello)
 
 
