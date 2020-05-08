@@ -1,0 +1,42 @@
+ADDI $t0 $t0 0x0001 	tO <- 1
+ADDI $t1 $t1 0x0001 	t1 <- 1
+ADD $t0 $t1 $t1 	t0 <- 2
+ADD $t1 $t0 $t0		t1 <- 4
+ADDI $t4 $t4 0x0001	t4 <- 1
+ADDI $t4 $t4 0x0001	t4 <- 2
+ADDI $t4 $t4 0x0001	t4 <- 3
+ADDI $t4 $t4 0x0001	t4 <- 4
+ADDI $t4 $t4 0x0001	t4 <- 5
+SW $t1 0x0000 $t2  Memory t2 <- t1   mem(0) <- 4
+ADDI $t4 $t4 0x0001	t4 <- 6
+ADDI $t4 $t4 0x0001	t4 <- 7
+ADDI $t4 $t4 0x0001	t4 <- 8
+ADDI $t4 $t4 0x0001	t4 <- 9
+ADDI $t4 $t4 0x0001	t4 <- a
+ADDI $t4 $t4 0x0001	t4 <- b
+LW $t3 0x0000 $t2	t3 <- 4
+ADD $t3 $t3 $t3		t3 <- 8
+
+resultado final profe1
+t0 2
+t1 4
+t3 8
+t4 b
+
+resultado final profe2
+t0 2
+t1 4
+t3 8
+
+
+rami 2
+0)	ADDI $t0 $t0 0x0001	Hex: 0x21080001
+1)	ADDI $t1 $t1 0x0001	Hex: 0x21290001
+2)	ADD $t0 $t1 $t1		Hex: 0x01294020
+3)	ADD $t1 $t0 $t0		Hex: 0x01084820
+4)	SW $t1 0x0000 $t2	Hex: 0xAD490000
+5)	LW $t3 0x0000 $t2	Hex: 0x8D4B0000
+6)	ADD $t3 $t3 $t3		Hex: 0x016B5820
+
+
+
